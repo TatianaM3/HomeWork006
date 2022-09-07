@@ -16,4 +16,5 @@ for (int i = 0; i < m; ++i){
     num++;
 }
 
+Console.WriteLine(string.Join(",", arr));
 Console.WriteLine($"Кол-во элементов больше нуля: {count}");
